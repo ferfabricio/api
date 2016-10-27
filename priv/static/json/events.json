@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "title": "DevFest Paraná",
+      "description": "",
+      "photo": "",
+      "date": "2016-10-29 08:00:00",
+      "url": "",
+      "venue": {
+        "name": "Hotel em foz",
+        "address": "Rua que eu nao sei, 123",
+        "city": "Foz do Iguaçu",
+        "observation": "Entrar em contato com o pessoal do DevParaná para ver a respeito de caravana"
+      },
+      "status": "upcoming"
+    },
+    {
+      "title": "DevParaná Conference 2016",
+      "description": "",
+      "photo": "",
+      "date": "2016-11-26 08:00:00",
+      "url": "",
+      "venue": {
+        "name": "Sebrae Maringá",
+        "address": "Av Bento Munhoz da rocha neto, 123",
+        "city": "Maringá",
+        "observation": "Estacionamento não estará incluso"
+      },
+      "status": "upcoming"
+    }
+  ]
+}
