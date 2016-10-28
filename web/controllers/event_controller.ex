@@ -3,6 +3,10 @@ defmodule Api.EventController do
   use Api.Web, :service
 
   def get(conn, _params) do
-    json conn, Api.EventService.get(conn)
+  	resp = Api.EventService.get(conn)
+
+    conn
+    |> put_status(if Map.has_key?(resp, :error), do: 404, else: 200)
+    |> json(resp)
   end
 end
